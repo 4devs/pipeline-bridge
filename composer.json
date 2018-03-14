@@ -1,0 +1,30 @@
+{
+  "name": "fdevs/pipeline-bridge",
+  "type": "library",
+  "license": "MIT",
+  "description": "4devs Pipeline Bridge",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Andrey Samusev",
+      "email": "andrey_simfi@list.ru",
+      "homepage": "http://andrey.4devs.io"
+    },
+    {
+      "name": "4devs Community",
+      "homepage": "https://github.com/4devs/pipeline-bridge/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.8",
+    "league/pipeline": "^0.3.0",
+    "fdevs/container": "^0.1.0"
+  },
+  "require-dev": {},
+  "suggest": {},
+  "autoload": {
+    "psr-4": {
+      "FDevs\\Bridge\\Pipline\\": ""
+    }
+  }
+}
