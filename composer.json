@@ -24,7 +24,7 @@
   "suggest": {},
   "autoload": {
     "psr-4": {
-      "FDevs\\Bridge\\Pipline\\": ""
+      "FDevs\\Bridge\\Pipeline\\": ""
     }
   }
 }
