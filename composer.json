@@ -20,8 +20,12 @@
     "league/pipeline": "^0.3 || ^1.0",
     "fdevs/container": "^0.1"
   },
-  "require-dev": {},
-  "suggest": {},
+  "require-dev": {
+     "symfony/dependency-injection": "^4.1"
+  },
+  "suggest": {
+    "symfony/dependency-injection": "use with symfony container"
+  },
   "autoload": {
     "psr-4": {
       "FDevs\\Bridge\\Pipeline\\": ""
