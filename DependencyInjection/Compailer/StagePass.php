@@ -35,7 +35,7 @@ class StagePass implements CompilerPassInterface
         foreach ($pipelines as $pipelineId => $services) {
             krsort($services);
             $services = call_user_func_array('array_merge', $services);
-            $def = new Definition(Pipeline::class, ['$stages' => $services]);
+            $def = new Definition(Pipeline::class, ['$processor' => null, '$stages' => $services]);
             $stageId = $pipelineId.'_stage_'.ContainerBuilder::hash($def);
             $container->setDefinition($stageId, $def);
 
